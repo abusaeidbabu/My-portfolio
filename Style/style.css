@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
+  padding:o;
   box-sizing: border-box;
 }
 .open-sans{
@@ -9,7 +9,7 @@
 }
 header{
     background-color:#FFF8F3;
-    background:url(../images/developer.png),url(../images/header_bg.png) , #FFF8F3;
+    background:url(../images/developer.png),url(../images/header_bg.png) , #FFF8F;
     background-repeat: no-repeat;
     background-position: top left,bottom right;
 }
@@ -43,6 +43,7 @@ header{
     font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
+    cursor: pointer;
     
 }
 /* can'n work */
@@ -98,4 +99,48 @@ header{
 #banner.banner-img{
     max-width: 582px;
     vertical-align: middle;
+}
+
+#about{
+    max-width: 1140px;
+    width: 71%;
+    background-color: #FFF8F3;
+    margin: 130px auto;
+    padding: 131px 157px;
+}
+.about-container{
+ margin-bottom: 30px;
+ text-align: center;
+
+}
+.about-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.about-container p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-card{
+    display: flex;
+    /* margin:0px auto; */
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+}
+.card-info p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.card-info h4{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color:#474747;
+
 }
