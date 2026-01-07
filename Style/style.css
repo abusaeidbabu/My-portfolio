@@ -127,7 +127,7 @@ header{
 }
 .about-card{
     display: flex;
-    /* margin:0px auto; */
+    margin:0px auto;
     justify-content: space-between;
     text-align: center;
     gap: 50px;
@@ -136,11 +136,193 @@ header{
     font-size: 20px;
     line-height: 30px;
     color: #757575;
+    text-align: center;
 }
 .card-info h4{
     font-size: 20px;
     font-weight: bold;
     line-height: 30px;
     color:#474747;
+    text-align: center;
 
+}
+#skill{
+    padding: 0px 230px;
+}
+#skill.skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin:0px 230px;
+    /* border:2px solid #181818; */
+}
+.skill-header{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.skill-header h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+.skill-header p {
+ margin: 0px 150px;
+ text-align: center;
+ line-height: 30px;
+ font-size: 18px;
+ color: #757575;
+}
+.skill-box{
+    display:flex;
+    /* border: 2px solid red; */
+    justify-content:space-around;
+    gap: 24px;
+}
+.skill-card{
+    /* border: 2px solid #181818; */
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #00000032;
+    max-width: 267px;
+    gap: 24px;
+    border-radius: 5px;
+}
+.skill-card img{
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+.skill-card h4{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom:20px;
+
+}
+.skill-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+#resume{
+    margin: 133px 277px 0 230px;
+    align-items: center;
+}
+.resume-header h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 110px;
+}
+.resume-container{
+    display: flex;
+    gap: 71px;
+}
+.education,.experiance, h3{
+    color: #474747;
+    font-size: 30px;
+    font-weight:bold;
+    margin-bottom: 30px;
+}
+.education-card ,.experiance-card{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.education-card ,.experiance-card, h4{
+    font-size:25px ;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.education-card, .experiance-card, h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.education-card ,.experiance-card, p{
+    font-size:16px;
+    line-height: 28px;
+    color: #757575;
+}
+.download{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+#footer{
+    margin-top: 113px;
+    margin-bottom: 130px;
+    background-color: #FFF8F3;
+}
+.footer-container{
+    width: 71%;
+    max-width: 1140pxS;
+    margin: 0 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-info{
+    max-width: 562px;
+}
+.footer-info h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-info p{
+    font-size: 16px;
+    line-height:28px;
+    color:#474747;
+    margin-bottom: 30px;
+}
+.footer-info .img{
+    display:flex;
+    gap: 24px;
+}
+.footer-info .img img{
+    height: 24px;
+    width: 24px;
+}
+.footer-form h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+    display: inline;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+.footer-form .input-tm{
+    padding: 18px 30px;
+    border: none;
+    margin-bottom: 24px;
+   
+}
+.input-tm::placeholder{
+     font-size: 16px;
+    color: #757575;
+     line-height: 28px;
+}
+.footer-form textarea{
+    padding: 16px 30px;
+    /* font-size: 16px; */
+    /* line-height: 28; */
+    /* color: #757575; */
+    border: none;
+    margin-bottom: 24px;
+    height: 180px;
+    width: 461px;
+    resize: none;
+
+}
+.footer-form textarea::placeholder{
+    font-size: 16px;
+    line-height: 28px;
+    color:#757575 ;
 }
